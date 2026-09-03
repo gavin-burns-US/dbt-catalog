@@ -1,6 +1,4 @@
 import { getPreferenceValues, showToast, Toast } from "@raycast/api";
-import fetch from "node-fetch";
-import { URLSearchParams } from "url";
 import { Preferences, DiscoveryResponse, ModelNode, SourceNode } from "./types";
 
 // Get fresh preferences each time to support live updates
